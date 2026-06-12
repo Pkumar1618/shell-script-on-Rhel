@@ -19,8 +19,8 @@ then
    then
       echo "Git installation is not success, check it.."
       exit 1
-    else
-        echo "Git installation is success"  
+   else
+      echo "Git installation is success"  
 else
    echo "Git is already installed, nothing to do.."
 fi
