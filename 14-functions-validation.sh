@@ -21,4 +21,4 @@ fi
 
 dnf list installed git
 
-VALIDATE $? "Listing Git"
+VALIDATE $? "Listing Git" #listing Git is the second arg.
