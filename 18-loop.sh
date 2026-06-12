@@ -13,7 +13,7 @@
 #     echo $i
 # done 
 
-for i in {0....10} # thimeaning is print the 0 to 10
+for i in {0..10} # this meaning is print the 0 to 10
 do 
     echo $i
 done
