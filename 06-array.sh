@@ -1,5 +1,7 @@
 #!/bin/bash
 
+
+# data types: int, float, decimal, array, arraylist, string, ...etc
 # index is start from 0, size is 3
 FRUITS=("Apple" "KIWI" "ORANGE") #Array
 
