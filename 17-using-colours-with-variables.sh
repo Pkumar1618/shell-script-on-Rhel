@@ -13,6 +13,7 @@ CHECK_ROOT(){
         exit 1
     else
         echo "already running this script with root priveleges"
+    fi
 }
 
 VALIDATE(){
