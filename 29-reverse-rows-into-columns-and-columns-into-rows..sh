@@ -1,3 +1,5 @@
+# Here's a shell script that finds a file by name starting from a given directory and then counts the total number of words in the file:
+
 #!/bin/bash
 
 FILE="$1"
