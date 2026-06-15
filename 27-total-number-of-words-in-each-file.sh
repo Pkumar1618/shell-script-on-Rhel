@@ -17,3 +17,11 @@ do
     WORD_COUNT=$(wc -w < "$FILE")
     echo "$FILE : $WORD_COUNT words"
 done
+
+# If you want to count the occurrences of each word (e.g., the = 15, file = 8) instead of just the total word count, use:
+
+tr -cs '[:alnum:]' '\n' < "$FILE_PATH" |
+tr '[:upper:]' '[:lower:]' |
+sort |
+uniq -c |
+sort -nr
